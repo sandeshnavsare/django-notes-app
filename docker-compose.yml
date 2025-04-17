@@ -13,7 +13,7 @@ services:
     networks:
       - notes-app-nw
 
-  django_app:
+  web:
     image: sandeshnavsare/notes-application
     container_name: "django_cont"
     ports:
